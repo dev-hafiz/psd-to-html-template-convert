@@ -481,10 +481,175 @@ img {
 
      font-family: 'Secular One', sans-serif;
      font-weight: bold;
-     font-size: 40px;
+     font-size: 90px;
+     position: relative;
+     color: #D4D4D4;
+     bottom: -25px;
 }
 
 .child-testimonial h3 span {
      font-weight: normal;
      font-style: italic;
+}
+
+/*====================
+     FOOTER CSS
+=====================*/
+
+#footer-area {
+     background: #fff;
+     padding: 30px 0;
+}
+
+.inner-footer {
+     overflow: hidden;
+}
+
+.child-footer {
+     width: 21%;
+     float: left;
+     margin: 0 1%;
+}
+
+.child-footer h4 {
+     border-top: 1px solid #666666;
+     font: 16px;
+     color: #666666;
+     margin-top: 0;
+     padding-top: 12px;
+
+}
+
+.child-footer p {
+     color: #666666;
+     font-size: 16px;
+}
+
+.child-footer p a {
+     text-decoration: none;
+     color: #b82c1f;
+}
+
+.child-footer p a:hover {
+     color: #000;
+}
+
+.child-footer ul {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}
+
+.child-footer ul li {
+     border-bottom: 1px solid #666666;
+}
+
+.child-footer ul :last-child {
+     border-bottom: 0px solid;
+}
+
+.child-footer ul li a {
+     text-decoration: none;
+     color: #666666;
+     font-size: 16px;
+     transition: .3s linear;
+}
+
+.child-footer ul li a:hover {
+     color: #000;
+}
+
+.little-footer h5 {
+     font: 14px;
+     margin-bottom: 0;
+}
+
+.little-footer p {
+     margin-top: 5px;
+}
+
+.little-footer {
+     overflow: hidden;
+     clear: both;
+}
+
+.little-footer a {
+     color: #b82c1f;
+     text-decoration: none;
+     float: right;
+}
+
+.little-footer h5 a {
+     float: left;
+     color: #b82c1f;
+     text-decoration: none;
+}
+
+.little-footer p a {
+     float: left;
+     color: #b82c1f;
+     text-decoration: none;
+}
+
+.little-footer a:hover {
+     color: #000000;
+}
+
+.child-footer form {
+     width: 100%;
+}
+
+.child-footer input,
+textarea {
+     width: 100%;
+     background: #f2f2f2;
+     border: none;
+     outline: none;
+     padding: 10px 10px;
+     margin-bottom: 5px;
+     border-radius: 5px;
+}
+
+.child-footer input[type="submit"] {
+     width: 80px;
+     background: #f2f2f2;
+     color: #b82c1f;
+     transition: .3s linear;
+}
+
+.child-footer input[type="submit"]:hover {
+
+     background: #b82c1f;
+     color: #fff;
+     font-weight: bold;
+}
+
+/*====================
+     BOTTOM FOOTER
+=====================*/
+#bottom-footer {
+     padding: 25px 10px;
+     background: #f2f2f2;
+}
+
+.inner-bottom-footer {
+     overflow: hidden;
+}
+
+.left-bottom-footer {
+     float: left;
+}
+
+.left-bottom-footer p {
+     color: #919191;
+     font-size: 14px;
+}
+
+.right-bottom-footer {
+     float: right;
+}
+
+.right-bottom-footer p {
+     color: #919191;
+     font-size: 14px;
 }
