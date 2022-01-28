@@ -21,6 +21,24 @@ img {
      height: auto;
 }
 
+
+.alignleft {
+     float: left;
+     margin-right: 15px;
+     margin-bottom: 15px;
+}
+
+.alignright {
+     float: right;
+     margin-left: 15px;
+     margin-bottom: 15px;
+}
+
+.aligncenter {
+     display: block;
+     margin: 0 auto 15px;
+}
+
 /*=====================
       TOP HEADER CSS
 ======================*/
@@ -313,4 +331,160 @@ img {
 #slider-area {
      width: 100%;
      margin: 60px 0;
+}
+
+/*=====================
+     HERO SECTION CSS
+=======================*/
+#hero-area {
+     width: 100%;
+     background: #fff;
+     padding: 60px 0;
+     margin: 0;
+}
+
+.inner-hero {
+     overflow: hidden;
+}
+
+.inner-hero h1 {
+     color: #000000;
+     font-size: 86px;
+     font-weight: normal;
+     line-height: 1em;
+}
+
+.inner-hero p {
+     font-size: 16px;
+     line-height: 1.3em;
+     margin-top: -50px;
+}
+
+.inner-hero a {
+     float: right;
+     text-transform: uppercase;
+     color: #ba2e1f;
+     text-decoration: none;
+     font-size: 16px;
+     padding-top: 32px;
+     display: inline-block;
+     clear: both;
+}
+
+.inner-hero a:hover {
+     color: #000;
+}
+
+/*=====================
+    WORK SECTION CSS
+=======================*/
+#work-area {
+     background: #f2f2f2;
+     padding: 50px 0;
+}
+
+.inner-work {
+     overflow: hidden;
+}
+
+.child-work {
+     width: 31%;
+     float: left;
+     margin: 0 1% 10px;
+}
+
+.child-work h2 {
+     color: #333333;
+     font-size: 26px;
+     font-weight: normal;
+}
+
+.child-work p {
+     color: #878787;
+     font-size: 14px;
+     font-weight: normal;
+}
+
+.child-work a {
+     color: #b92d1f;
+     font-size: 14px;
+     font-weight: normal;
+     text-transform: uppercase;
+     text-decoration: none;
+     float: right;
+     transition: .3s linear;
+}
+
+.child-work a:hover {
+     color: #000;
+}
+
+.about-area {
+     margin-left: 0;
+}
+
+.about-area img {
+     border: 1px solid #dfdfdf;
+     padding: 5px;
+     display: block;
+     margin-bottom: 16px;
+}
+
+.service-area {}
+
+.child-service {
+     overflow: hidden;
+     width: 100%;
+     margin-bottom: 16px;
+}
+
+.child-service .service-image {
+     width: 25%;
+     float: left;
+}
+
+.child-service .service-text {
+     width: 75%;
+     float: right;
+}
+
+.child-service .service-text h3 {
+     color: #878787;
+     font-size: 16px;
+     margin-bottom: 2px;
+     margin-top: 3px;
+}
+
+.child-service .service-text p {
+     margin-top: 0;
+}
+
+
+.testimonial-area {
+     margin-right: 0;
+}
+
+.child-testimonial {
+     overflow: hidden;
+     margin-bottom: 15px;
+}
+
+
+.child-testimonial h3 {
+
+     color: #989898;
+     font: 16px;
+     font-weight: bold;
+}
+
+.child-testimonial h3 strong {
+
+     font-family: 'Secular One', sans-serif;
+     font-weight: bold;
+     font-size: 40px;
+}
+
+.child-testimonial h3 span {
+     font-weight: normal;
+     font-style: italic;
 }
